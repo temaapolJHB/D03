@@ -1,19 +1,28 @@
-void ft_putstr(char *str);
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_putstr.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/16 08:56:38 by temaapol          #+#    #+#             */
+/*   Updated: 2020/07/16 08:56:44 by temaapol         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+
 void ft_putchar(char c)
 {
   write(1, &c, 100);
 }
 void ft_putstr(char *str)
 {
-   int index;
-   int size;
-   char in[size];
-   
-   *str = in[size]
-   while(in[index] != '\0')
+   int i;
+
+   i = 0;
+   while(str[i] != '\0')
    {
-	   ft_putchar(in[index]);
-	   index++;
+	   ft_putchar(str[i]);
+	   i++;
    }
-   
 }
