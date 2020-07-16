@@ -1,14 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ultimate_div_mod.c                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/16 08:53:27 by temaapol          #+#    #+#             */
+/*   Updated: 2020/07/16 08:53:30 by temaapol         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 void ft_ultimate_div_mod(int *a, int *b)
 {
-   int num1;
-   int num2;
-   int divTot;
-   int modTot;a
+   int temp;
 
-   *a = &num1;
-   *b = &num2
-   divTot = num1 / num2;
-   modTot = num1 % num2;
-   *a = &divTot;
-   *b = &modTot;
+   temp = *a;
+   *a = *a / b;
+   *b = temp %*b;
 }
