@@ -1,15 +1,35 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_strrev.c                                        :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/16 10:30:11 by temaapol          #+#    #+#             */
+/*   Updated: 2020/07/16 10:30:19 by temaapol         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 char *ft_strrev(char *str)
 {
-	int index;
+	int i;
 	int j;
-    char string[index];
+    char s;
 
-	*str = &string[0];
-	j = 100;
-    
-	while(string[j] != string[0])
-	{
-      j--;
-	}
+	i = 0;
+	while(str[i] != 0)
+		i++;
+
+	j = -1;
+     while(++j < --i)
+	 {
+		 s = str[j];
+		 str[j] = str[i];
+		 str[i] = t;
+	 }
+	 return (str)
+
+
+	
 
 
