@@ -1,29 +1,16 @@
-void ft_utltimate_ft(int *********nbr);
-void ft_ultimate_ft(int **********nbr)
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_ultimate_ft.c                                   :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: temaapol <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2020/07/15 17:00:56 by temaapol          #+#    #+#             */
+/*   Updated: 2020/07/16 08:46:48 by temaapol         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+void ft_ultimate_ft(int *********nbr)
 {
-	int num;
-    int *********nr1;
-	int *******nr2;
-	int ******nr3;
-	int *****nbr4;
-	int ****nbr5;
-	int ***nbr6;
-	int **nbr7;
-	int *nbr8;
-
-	num = 42;
-    nbr8 = &num;
-	nbr8 = &nbr7;
-	nbr7 = &num6;
-	nbr6 = &num5;
-	num5 = &num4;
-	num4 = &num3;
-	num3 = &num2;
-	num2 = &num1;
-	nbr = & num1;
-
+	*********nbr = 42;
 }
-
-
-
-
